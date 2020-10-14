@@ -19,7 +19,17 @@ Simple automated setup and configuration of a Raspberry Pi for use as a UniFi Co
 
 `sudo bash -c "$(wget -O- https://raw.githubusercontent.com/piscripts/piunifi/master/piunifi-setup.sh)"`
 
-## Known issues
+## Known issues  
 
-You will need to ignore the SSL certificate error when accessing UniFi controller web interface for the controller. The controller will function fine, however if you want to access securely from an external network you can install a valid SSL certificate there are a number of existing articles and Youtube videos on how to do this try google "unifi controller ssl certificate".
+You will need to ignore the browser SSL certificate error when accessing UniFi controller web interface. On a private/internal network this should not be a significant issue and will function fine (some browsers will allow you to add the address as an exception). If you want to access the controller securely from an external/public network, you should install a valid SSL certificate. There are a number of existing articles and Youtube videos on how to do this try searching "unifi controller ssl certificate".
 
+## Troubleshooting  
+
+Give the unifi service a few minutes to start upon reboot.  
+The web interface is accessed on port 8443 and you must use https not http (Example: https://IPADDRESSOFPI:8443)  
+   
+If you still cannot access the web interface try checking the status of the service with the following command:  
+`sudo systemctl status unifi`
+
+If should read `Starting unifi...` and eventually `Started unifi.`  
+Otherwise check for errors in the status output.
