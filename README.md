@@ -21,4 +21,4 @@ Bash shell script to automate the setup and configuration of a Raspberry Pi for 
 
 ## Known issues
 
-You will need to ignore the browser SSL certificate error when accessing UniFi controller web interface. On a private/internal network this should is not a significant issue and will function fine however it can be an annoyance (some browsers will allow you to add the address as an exception). If you want to access the controller securely from an external/public network, you should install a valid SSL certificate. There are a number of existing articles and Youtube videos on how to do this try searching "unifi controller ssl certificate".
+You will need to ignore the browser SSL certificate error when accessing UniFi controller web interface. On a private/internal network this should not be a significant issue and will function fine (some browsers will allow you to add the address as an exception). If you want to access the controller securely from an external/public network, you should install a valid SSL certificate. There are a number of existing articles and Youtube videos on how to do this try searching "unifi controller ssl certificate".
