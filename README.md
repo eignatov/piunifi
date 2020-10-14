@@ -15,9 +15,9 @@ Simple bash shell script to automate the setup and configuration of a Raspberry 
 
 **Method 2:** Just use the curl or wget command lines shown below for a one-step install.
 
-`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/piscripts/unifipi/master/unifipi-setup.sh)"`
+`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/piscripts/unifipi/main/unifipi-setup.sh)"`
 
-`sudo bash -c "$(wget -O- https://raw.githubusercontent.com/piscripts/unifipi/master/unifipi-setup.sh)"`
+`sudo bash -c "$(wget -O- https://raw.githubusercontent.com/piscripts/unifipi/main/unifipi-setup.sh)"`
 
 ## Known issues
 
