@@ -15,9 +15,9 @@ Simple automated setup and configuration of a Raspberry Pi for use as a UniFi Co
 
 **Method 2:** Just use the curl or wget command lines shown below for a one-step install.
 
-`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/piscripts/piunifi/master/piunifi-setup.sh)"`
+`sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/piscripts/piunifi/main/piunifi-setup.sh)"`
 
-`sudo bash -c "$(wget -O- https://raw.githubusercontent.com/piscripts/piunifi/master/piunifi-setup.sh)"`
+`sudo bash -c "$(wget -O- https://raw.githubusercontent.com/piscripts/piunifi/main/piunifi-setup.sh)"`
 
 ## Known issues  
 
