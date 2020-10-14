@@ -30,6 +30,5 @@ Give the unifi service a few minutes to start upon reboot.
 If you still cannot access the web interface try checking the status of the service with the following command:  
 `sudo systemctl status unifi`
 
-Check for errors in the status output.  
-If should read `Starting unifi...`  
-and eventually `Started unifi.`  
+If should read `Starting unifi...` and eventually `Started unifi.`  
+Otherwise check for errors in the status output.
