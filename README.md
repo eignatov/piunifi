@@ -25,8 +25,9 @@ You will need to ignore the browser SSL certificate error when accessing UniFi c
 
 ## Troubleshooting
 
-Give the unifi service a few minutes to start upon reboot. 
-
+Give the unifi service a few minutes to start upon reboot.  
+The web interface is accessed on port 8443 and you must use https not http (Example: https://IPADDRESSOFPI:8443)  
+   
 If you still cannot access the web interface try checking the status of the service with the following command:  
 `sudo systemctl status unifi`
 
