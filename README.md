@@ -36,5 +36,5 @@ The web interface is accessed on port 8443 and you must use https not http (Exam
 If you still cannot access the web interface try checking the status of the service with the following command:  
 `sudo systemctl status unifi`
 
-If should read `Starting unifi...` and eventually `Started unifi.`  
+The command output should contain `Starting unifi...` and eventually `Started unifi.`  
 Otherwise check for errors in the status output.
