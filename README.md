@@ -6,6 +6,9 @@ Simple automated setup and configuration of a Raspberry Pi for use as a UniFi Co
 **Tested October 2020 Raspberry Pi 3 & 4 Raspberry Pi OS (previously called Raspbian)**
 - Raspberry Pi OS (32-bit) Lite minimal image based on Debian Buster - August 2020 (Kernel 5.4)    
 
+## IMPORTANT  
+**If you already have a Unifi Controller running on the same network which you intend to replace with this piunifi you should backup the network settings from the existing controller to a file. This file can then be imported into the piunifi controller. Otherwise you will have to reset all your network devices to adopt them under the new piunifi controller.**
+
 ## Usage
 **Method 1:** Clone and run locally. You can edit and modify script to suit using this method.
 
