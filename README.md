@@ -1,7 +1,7 @@
 ![UNiFiPi Terminal Screenshot](/terminal.png)  
 
 ## unifipi-setup.sh
-Simple bash shell script to automate the setup and configuration of a Raspberry Pi for use as a UniFi Controller for Ubiquiti network devices.
+Bash shell script to automate the setup and configuration of a Raspberry Pi for use as a UniFi Controller for Ubiquiti network devices.
 
 **Tested October 2020 Raspberry Pi 3 & 4 Raspberry Pi OS (previously called Raspbian)**
 - Raspberry Pi OS (32-bit) Lite minimal image based on Debian Buster - August 2020 (Kernel 5.4)    
